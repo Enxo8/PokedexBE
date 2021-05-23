@@ -49,6 +49,7 @@ namespace Pokedex.API
             services.AddScoped<ILoginRepository, LoginRepository>();
             services.AddScoped<IUsuariosRepository, UsuariosRepository>();
             services.AddScoped<IUsuariosBL, UsuariosBL>();
+            //services.AddScoped<IPokemonBL, PokemonBL>();
             services.Add(new ServiceDescriptor(typeof(PokedexContext), new PokedexContext(Configuration.GetConnectionString("pokedex"))));
 
             services.AddAutoMapper(cfg => cfg.AddProfile(new AutoMapperProfile()));
