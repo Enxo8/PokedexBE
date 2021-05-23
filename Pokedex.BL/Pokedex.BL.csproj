@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Pokedex.Core\Pokedex.Core.csproj" />
     <ProjectReference Include="..\Pokedex.DAL\Pokedex.DAL.csproj" />
   </ItemGroup>

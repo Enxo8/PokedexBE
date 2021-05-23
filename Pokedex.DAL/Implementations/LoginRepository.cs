@@ -1,5 +1,5 @@
 ﻿
-using MySqlConnector;
+using MySql.Data.MySqlClient;
 using Pokedex.DAL.Contracts;
 using Pokedex.DAL.Entities;
 using System;
@@ -23,9 +23,9 @@ namespace Pokedex.DAL.Implementations
             using (MySqlConnection conn = context.GetConnection())
             {
                 conn.Open();
-                MySqlCommand cmd = new MySqlCommand(String.Format("select * from login " +
-                                                    "where Username = '{0}' and" +
-                                                    " Password = '{1}'", usuario.Username, usuario.password), conn);
+                MySqlCommand cmd = new MySqlCommand(String.Format("select * from usuarios " +
+                                                    "where username = '{0}' and" +
+                                                    " password = '{1}'", usuario.Username, usuario.password), conn);
 
                 using (var reader = cmd.ExecuteReader())
                 {

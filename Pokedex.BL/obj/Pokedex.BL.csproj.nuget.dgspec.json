@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eNZO\\source\\repos\\Pokedex\\Pokedex.BL\\Pokedex.BL.csproj": {}
+    "D:\\Escritorio\\PokedexBE\\Pokedex.BL\\Pokedex.BL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eNZO\\source\\repos\\Pokedex\\Pokedex.BL\\Pokedex.BL.csproj": {
+    "D:\\Escritorio\\PokedexBE\\Pokedex.BL\\Pokedex.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eNZO\\source\\repos\\Pokedex\\Pokedex.BL\\Pokedex.BL.csproj",
+        "projectUniqueName": "D:\\Escritorio\\PokedexBE\\Pokedex.BL\\Pokedex.BL.csproj",
         "projectName": "Pokedex.BL",
-        "projectPath": "C:\\Users\\eNZO\\source\\repos\\Pokedex\\Pokedex.BL\\Pokedex.BL.csproj",
+        "projectPath": "D:\\Escritorio\\PokedexBE\\Pokedex.BL\\Pokedex.BL.csproj",
         "packagesPath": "C:\\Users\\eNZO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eNZO\\source\\repos\\Pokedex\\Pokedex.BL\\obj\\",
+        "outputPath": "D:\\Escritorio\\PokedexBE\\Pokedex.BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eNZO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\eNZO\\source\\repos\\Pokedex\\Pokedex.Core\\Pokedex.Core.csproj": {
-                "projectPath": "C:\\Users\\eNZO\\source\\repos\\Pokedex\\Pokedex.Core\\Pokedex.Core.csproj"
+              "D:\\Escritorio\\PokedexBE\\Pokedex.Core\\Pokedex.Core.csproj": {
+                "projectPath": "D:\\Escritorio\\PokedexBE\\Pokedex.Core\\Pokedex.Core.csproj"
               },
-              "C:\\Users\\eNZO\\source\\repos\\Pokedex\\Pokedex.DAL\\Pokedex.DAL.csproj": {
-                "projectPath": "C:\\Users\\eNZO\\source\\repos\\Pokedex\\Pokedex.DAL\\Pokedex.DAL.csproj"
+              "D:\\Escritorio\\PokedexBE\\Pokedex.DAL\\Pokedex.DAL.csproj": {
+                "projectPath": "D:\\Escritorio\\PokedexBE\\Pokedex.DAL\\Pokedex.DAL.csproj"
               }
             }
           }
@@ -46,6 +46,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,18 +67,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\eNZO\\source\\repos\\Pokedex\\Pokedex.Core\\Pokedex.Core.csproj": {
+    "D:\\Escritorio\\PokedexBE\\Pokedex.Core\\Pokedex.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eNZO\\source\\repos\\Pokedex\\Pokedex.Core\\Pokedex.Core.csproj",
+        "projectUniqueName": "D:\\Escritorio\\PokedexBE\\Pokedex.Core\\Pokedex.Core.csproj",
         "projectName": "Pokedex.Core",
-        "projectPath": "C:\\Users\\eNZO\\source\\repos\\Pokedex\\Pokedex.Core\\Pokedex.Core.csproj",
+        "projectPath": "D:\\Escritorio\\PokedexBE\\Pokedex.Core\\Pokedex.Core.csproj",
         "packagesPath": "C:\\Users\\eNZO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eNZO\\source\\repos\\Pokedex\\Pokedex.Core\\obj\\",
+        "outputPath": "D:\\Escritorio\\PokedexBE\\Pokedex.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eNZO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,7 +94,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Escritorio\\PokedexBE\\Pokedex.DAL\\Pokedex.DAL.csproj": {
+                "projectPath": "D:\\Escritorio\\PokedexBE\\Pokedex.DAL\\Pokedex.DAL.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -100,6 +110,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -115,18 +131,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\eNZO\\source\\repos\\Pokedex\\Pokedex.DAL\\Pokedex.DAL.csproj": {
+    "D:\\Escritorio\\PokedexBE\\Pokedex.DAL\\Pokedex.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eNZO\\source\\repos\\Pokedex\\Pokedex.DAL\\Pokedex.DAL.csproj",
+        "projectUniqueName": "D:\\Escritorio\\PokedexBE\\Pokedex.DAL\\Pokedex.DAL.csproj",
         "projectName": "Pokedex.DAL",
-        "projectPath": "C:\\Users\\eNZO\\source\\repos\\Pokedex\\Pokedex.DAL\\Pokedex.DAL.csproj",
+        "projectPath": "D:\\Escritorio\\PokedexBE\\Pokedex.DAL\\Pokedex.DAL.csproj",
         "packagesPath": "C:\\Users\\eNZO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eNZO\\source\\repos\\Pokedex\\Pokedex.DAL\\obj\\",
+        "outputPath": "D:\\Escritorio\\PokedexBE\\Pokedex.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eNZO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -155,9 +171,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "MySqlConnector": {
+            "MySql.Data": {
               "target": "Package",
-              "version": "[1.3.8, )"
+              "version": "[8.0.25, )"
             }
           },
           "imports": [
@@ -175,7 +191,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

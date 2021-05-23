@@ -10,3 +10,15 @@ C:\Users\eNZO\source\repos\Pokedex\Pokedex.DAL\obj\Debug\net5.0\Pokedex.DAL.cspr
 C:\Users\eNZO\source\repos\Pokedex\Pokedex.DAL\obj\Debug\net5.0\Pokedex.DAL.dll
 C:\Users\eNZO\source\repos\Pokedex\Pokedex.DAL\obj\Debug\net5.0\ref\Pokedex.DAL.dll
 C:\Users\eNZO\source\repos\Pokedex\Pokedex.DAL\obj\Debug\net5.0\Pokedex.DAL.pdb
+D:\Escritorio\PokedexBE\Pokedex.DAL\bin\Debug\net5.0\Pokedex.DAL.deps.json
+D:\Escritorio\PokedexBE\Pokedex.DAL\bin\Debug\net5.0\Pokedex.DAL.dll
+D:\Escritorio\PokedexBE\Pokedex.DAL\bin\Debug\net5.0\ref\Pokedex.DAL.dll
+D:\Escritorio\PokedexBE\Pokedex.DAL\bin\Debug\net5.0\Pokedex.DAL.pdb
+D:\Escritorio\PokedexBE\Pokedex.DAL\obj\Debug\net5.0\Pokedex.DAL.csprojAssemblyReference.cache
+D:\Escritorio\PokedexBE\Pokedex.DAL\obj\Debug\net5.0\Pokedex.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Escritorio\PokedexBE\Pokedex.DAL\obj\Debug\net5.0\Pokedex.DAL.AssemblyInfoInputs.cache
+D:\Escritorio\PokedexBE\Pokedex.DAL\obj\Debug\net5.0\Pokedex.DAL.AssemblyInfo.cs
+D:\Escritorio\PokedexBE\Pokedex.DAL\obj\Debug\net5.0\Pokedex.DAL.csproj.CoreCompileInputs.cache
+D:\Escritorio\PokedexBE\Pokedex.DAL\obj\Debug\net5.0\Pokedex.DAL.dll
+D:\Escritorio\PokedexBE\Pokedex.DAL\obj\Debug\net5.0\ref\Pokedex.DAL.dll
+D:\Escritorio\PokedexBE\Pokedex.DAL\obj\Debug\net5.0\Pokedex.DAL.pdb

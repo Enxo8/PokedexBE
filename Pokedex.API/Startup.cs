@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Pokedex.BL.Contracts;
 using Pokedex.BL.Implementations;
+using Pokedex.Core.AutoMapper;
 using Pokedex.DAL;
 using Pokedex.DAL.Contracts;
 using Pokedex.DAL.Implementations;
@@ -46,7 +47,11 @@ namespace Pokedex.API
 
             services.AddScoped<ILoginBL, LoginBL>();
             services.AddScoped<ILoginRepository, LoginRepository>();
-            services.Add(new ServiceDescriptor(typeof(PokedexContext), new PokedexContext(Configuration.GetConnectionString("pokedexdb"))));
+            services.AddScoped<IUsuariosRepository, UsuariosRepository>();
+            services.AddScoped<IUsuariosBL, UsuariosBL>();
+            services.Add(new ServiceDescriptor(typeof(PokedexContext), new PokedexContext(Configuration.GetConnectionString("pokedex"))));
+
+            services.AddAutoMapper(cfg => cfg.AddProfile(new AutoMapperProfile()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -57,8 +62,9 @@ namespace Pokedex.API
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Pokedex.API v1"));
+                app.UseCors("MyPolicy");
             }
-            app.UseCors("MyPolicy");
+            
             app.UseHttpsRedirection();
 
             app.UseRouting();
