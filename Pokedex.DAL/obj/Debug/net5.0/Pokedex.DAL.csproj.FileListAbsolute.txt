@@ -1,0 +1,12 @@
+C:\Users\eNZO\source\repos\Pokedex\Pokedex.DAL\bin\Debug\net5.0\Pokedex.DAL.deps.json
+C:\Users\eNZO\source\repos\Pokedex\Pokedex.DAL\bin\Debug\net5.0\Pokedex.DAL.dll
+C:\Users\eNZO\source\repos\Pokedex\Pokedex.DAL\bin\Debug\net5.0\ref\Pokedex.DAL.dll
+C:\Users\eNZO\source\repos\Pokedex\Pokedex.DAL\bin\Debug\net5.0\Pokedex.DAL.pdb
+C:\Users\eNZO\source\repos\Pokedex\Pokedex.DAL\obj\Debug\net5.0\Pokedex.DAL.csprojAssemblyReference.cache
+C:\Users\eNZO\source\repos\Pokedex\Pokedex.DAL\obj\Debug\net5.0\Pokedex.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eNZO\source\repos\Pokedex\Pokedex.DAL\obj\Debug\net5.0\Pokedex.DAL.AssemblyInfoInputs.cache
+C:\Users\eNZO\source\repos\Pokedex\Pokedex.DAL\obj\Debug\net5.0\Pokedex.DAL.AssemblyInfo.cs
+C:\Users\eNZO\source\repos\Pokedex\Pokedex.DAL\obj\Debug\net5.0\Pokedex.DAL.csproj.CoreCompileInputs.cache
+C:\Users\eNZO\source\repos\Pokedex\Pokedex.DAL\obj\Debug\net5.0\Pokedex.DAL.dll
+C:\Users\eNZO\source\repos\Pokedex\Pokedex.DAL\obj\Debug\net5.0\ref\Pokedex.DAL.dll
+C:\Users\eNZO\source\repos\Pokedex\Pokedex.DAL\obj\Debug\net5.0\Pokedex.DAL.pdb

@@ -1,0 +1,25 @@
+﻿
+using MySqlConnector;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Pokedex.DAL
+{
+    public class PokedexContext
+    {
+        public string ConnectionString { get; set; }
+
+        public PokedexContext(string connectionString)
+        {
+            this.ConnectionString = connectionString;
+        }
+
+        public MySqlConnection GetConnection()
+        {
+            return new MySqlConnection(ConnectionString);
+        }
+    }
+}

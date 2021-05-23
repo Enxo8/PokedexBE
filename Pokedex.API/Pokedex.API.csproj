@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pokedex.BL\Pokedex.BL.csproj" />
+    <ProjectReference Include="..\Pokedex.Core\Pokedex.Core.csproj" />
+    <ProjectReference Include="..\Pokedex.DAL\Pokedex.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
